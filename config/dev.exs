@@ -2,8 +2,8 @@ use Mix.Config
 
 # Configure your database
 config :heroku_app, HerokuApp.Repo,
-  username: "postgres",
-  password: "postgres",
+  username: "admin",
+  password: "root",
   database: "heroku_app_dev",
   hostname: "localhost",
   show_sensitive_data_on_connection_error: true,
